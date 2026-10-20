@@ -56,3 +56,4 @@ document.querySelectorAll('.collections button').forEach(b=>{
   span.outerHTML=`<img class="collection-photo" src="assets/${collectionPhotos[b.dataset.category]}" alt="SG Flowers ${b.dataset.category}" loading="lazy">`;
 });
 $('.about-visual').innerHTML='<img src="assets/sgraw-007.png" alt="SG Flowers Singapore" class="story-logo"><h3>Prepared with<br><em>love & intention.</em></h3>';
+s
